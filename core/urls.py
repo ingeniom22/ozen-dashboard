@@ -18,7 +18,7 @@ from django.urls import include, path
 from django.contrib.auth.views import LoginView
 
 urlpatterns = [
-    path('', include('home.urls')),
+    path("", include('home.urls')),
     path("admin/", admin.site.urls),
-    path("", include('admin_argon.urls'))
+    path("", include('admin_argon.urls')),
 ]
