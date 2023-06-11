@@ -33,11 +33,11 @@ DEBUG = 'RENDER' not in os.environ
 ALLOWED_HOSTS = ["*"]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://ozen-dashboard-production.up.railway.app/'
+    'https://ozen-dashboard-production.up.railway.app'
 ]
 
 CORS_ORIGIN_WHITELIST = [
-    'https://ozen-dashboard-production.up.railway.app/',
+    'https://ozen-dashboard-production.up.railway.app',
 ]
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
