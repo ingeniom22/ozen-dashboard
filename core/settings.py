@@ -33,11 +33,11 @@ DEBUG = 'RENDER' not in os.environ
 ALLOWED_HOSTS = ["*"]
 
 CSRF_TRUSTED_ORIGINS = [
-    '0.0.0.0:5005'
+    'http://0.0.0.0:5005'
 ]
 
 CORS_ORIGIN_WHITELIST = [
-    '0.0.0.0:5005',
+    'http://0.0.0.0:5005',
 ]
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
